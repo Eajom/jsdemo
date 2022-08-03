@@ -1,0 +1,43 @@
+body{
+  background-color:purple;
+
+}
+h2,h3{
+  text-align: center;
+  background-color: orange;
+  font-weight: bolder;
+  border: 5px solid green;
+
+}
+.col-md-6{
+  float: left;
+}
+
+.col-md-4{
+  float: left;
+  border: 1px solid black;
+}
+.arrange{
+  display: inline;
+  float: left;
+  width: 20px;
+}
+.bg-green{
+  background-color:darkviolet;
+}
+
+h1{
+  text-align: center;
+}
+body{
+  font-size: 1.5em;
+}
+@media(max: 992px){
+  .nav-item{
+    width: 100%;
+    float: left;
+    display: block;
+  }
+}
+
+}
